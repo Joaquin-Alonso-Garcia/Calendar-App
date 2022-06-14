@@ -1,0 +1,37 @@
+body, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#months {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.month {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5em;
+  padding: .8em;
+  border: 1px solid cyan;
+  flex-grow: 1;
+}
+
+.month > h1 {
+  width: 100%;
+  border: 1px solid salmon;
+  margin-bottom: .8em;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day-number {
+  margin: .5em;
+  padding: .5em;
+  border: 1px solid fuchsia;
+  border-radius: .8em;
+}
